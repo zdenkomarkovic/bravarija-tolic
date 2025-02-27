@@ -13,7 +13,7 @@ const Cards1 = ({ title, data }: { title: string; data: Cards1Data[] }) => {
           {data.map((item) => {
             return (
               <MotionComponent1 key={item.id}>
-                <OneCard key={item.id} item={item} />;
+                <OneCard key={item.id} item={item} />
               </MotionComponent1>
             );
           })}

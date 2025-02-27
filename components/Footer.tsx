@@ -22,19 +22,13 @@ export default function Footer() {
               </li>
 
               <li>
-                <Link
-                  href="/"
-                  className="text-muted-foreground hover:text-primary"
-                >
+                <Link href="/" className="hover:text-primary">
                   Usluge
                 </Link>
               </li>
 
               <li>
-                <Link
-                  href="/kontakt"
-                  className="text-muted-foreground hover:text-primary"
-                >
+                <Link href="/kontakt" className=" hover:text-primary">
                   Kontakt
                 </Link>
               </li>
@@ -45,23 +39,21 @@ export default function Footer() {
             <div>
               {" "}
               <a href="tel:+38160 000 000">
-                <p className="text-muted-foreground  hover:text-primary">
-                  Telefon: +38160 000 000
-                </p>
+                <p className="  hover:text-primary">Telefon: +38160 000 000</p>
               </a>
             </div>
             <div>
               <a href="mailto:">
-                <p className="text-muted-foreground text-wrap  hover:text-primary">
+                <p className=" text-wrap  hover:text-primary">
                   Email: starter mail
                 </p>
               </a>
             </div>
             <div className="flex space-x-4 justify-center md:justify-start">
-              <a href="#" className="text-muted-foreground hover:text-primary">
+              <a href="#" className=" hover:text-primary">
                 <Facebook />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary">
+              <a href="#" className=" hover:text-primary">
                 <Instagram />
               </a>
             </div>
@@ -76,7 +68,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-10 border-t-[1px] border-cool-green mt-10 pt-5">
-          <p>&copy; 2025 _________. Sva prava zadržana.</p>
+          <p>&copy; 2025 Tolić Inženjering. Sva prava zadržana.</p>
           <a href="https://www.manikamwebsolutions.com/" target="_blank">
             izrada sajta:{" "}
             <span className="font-bold text-primary"> ManikamWebSolutions</span>

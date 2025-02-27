@@ -13,27 +13,27 @@ export const navList = [
     title: "Početna",
     link: "/",
   },
-  {
-    title: "Usluge",
-    list: [
-      {
-        title: "Kuhinje",
-        link: "",
-      },
-      {
-        title: "Plakari",
-        link: "",
-      },
-      {
-        title: "TV Komode",
-        link: "",
-      },
-      {
-        title: "Projektovanje Enterijera",
-        link: "",
-      },
-    ],
-  },
+  // {
+  //   title: "Usluge",
+  //   list: [
+  //     {
+  //       title: "Kuhinje",
+  //       link: "",
+  //     },
+  //     {
+  //       title: "Plakari",
+  //       link: "",
+  //     },
+  //     {
+  //       title: "TV Komode",
+  //       link: "",
+  //     },
+  //     {
+  //       title: "Projektovanje Enterijera",
+  //       link: "",
+  //     },
+  //   ],
+  // },
   {
     title: "Proizvodi",
     link: "/proizvodi",
