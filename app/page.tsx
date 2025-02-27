@@ -1,11 +1,14 @@
 import About2 from "@/components/About2";
 import BackgroundImage from "@/components/BackgroundImage";
 import Cards1 from "@/components/Cards1";
-import Cards2 from "@/components/Cards2";
-import CardWithImage from "@/components/CardWithImage";
+// import Cards2 from "@/components/Cards2";
+// import CardWithImage from "@/components/CardWithImage";
 import HeroOneImg from "@/components/HeroOneImg";
 import PozoviteNasOdmah from "@/components/PozoviteNasOdmah";
-import { cards1Data, cards2Data, cards2DataText } from "@/constants/index";
+import {
+  cards1Data,
+  // , cards2Data, cards2DataText
+} from "@/constants/index";
 
 export default function Home() {
   return (
