@@ -3,7 +3,11 @@
 import Image from "next/image";
 import Logo from "../public/manikam.png";
 import Link from "next/link";
-import { ChevronDownIcon, MenuIcon, PhoneIcon } from "lucide-react";
+import {
+  //  ChevronDownIcon,
+  MenuIcon,
+  PhoneIcon,
+} from "lucide-react";
 
 import {
   Sheet,
@@ -14,15 +18,19 @@ import {
 } from "@/components/ui/sheet";
 
 import { motion } from "framer-motion";
-import { Fragment, useEffect, useState } from "react";
-import { navList } from "@/constants/index";
 import {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from "./ui/accordion";
-import { HoverCard, HoverCardTrigger, HoverCardContent } from "./ui/hover-card";
+  //  Fragment,
+  useEffect,
+  useState,
+} from "react";
+import { navList } from "@/constants/index";
+// import {
+//   Accordion,
+//   AccordionItem,
+//   AccordionTrigger,
+//   AccordionContent,
+// } from "./ui/accordion";
+// import { HoverCard, HoverCardTrigger, HoverCardContent } from "./ui/hover-card";
 
 const mobTitleStyles = "text-lg py-2";
 
