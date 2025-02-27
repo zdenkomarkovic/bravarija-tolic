@@ -8,8 +8,9 @@ const PozoviteNasOdmah = () => {
     <div className="bg-foreground text-primary mt-10 md:mt-20 py-10 md:py-20">
       <div className="container px-2 md:px-4 mx-auto font-bold flex flex-col md:flex-row items-center gap-10 md:gap-20">
         <h2 className="text-xl md:text-4xl text-center ">
-          Šlep služba Purić Čačak brza, povoljna i bezbedna šlep služba je tu za
-          vas 24h dnevno, tokom cele godine godine.
+          Ako vam je potrebno kvalitetno bravarsko rešenje, obratite nam se za
+          konsultacije i ponudu. Rado ćemo vam pomoći da pronađete najbolje
+          rešenje za vaš prostor!
         </h2>
         <a href="tel:+381659480700">
           <motion.button

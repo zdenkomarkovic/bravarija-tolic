@@ -18,21 +18,15 @@ export default function Home() {
       <About2 image={"/about.jpg"} altText={"bravarija tolic"} />
       <PozoviteNasOdmah />
       <CardWithImage />
-      <PozoviteNasOdmahImage />
+      <BackgroundImage image={"/bgImage2.jpg"} altText={"bravarija tolic"} />
       <Cards1 title={"dodaj naslov"} data={cards1Data} />
       <Cards2
         title={"Elektroinstalacije i elektro ormani"}
         data={cards2Data}
         text={cards2DataText}
       />
-      <Cards2Kosina
-        title={"Elektroinstalacije i elektro ormani"}
-        data={cards2Data}
-        text={cards2DataText}
-      />
-      <Cardlist />
-      <BackgroundImage />
-      <Testemonials />
+
+      <BackgroundImage image={"/bgImage.jpg"} altText={"bravarija tolic"} />
     </div>
   );
 }
