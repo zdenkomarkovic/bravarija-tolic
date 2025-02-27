@@ -13,14 +13,14 @@ export default function Home() {
       <HeroOneImg />
       <About2 image={"/about.jpg"} altText={"bravarija tolic"} />
       <PozoviteNasOdmah />
-      <CardWithImage />
+      {/* <CardWithImage /> */}
       <BackgroundImage image={"/bgImage2.jpg"} altText={"bravarija tolic"} />
-      <Cards1 title={"dodaj naslov"} data={cards1Data} />
-      <Cards2
+      <Cards1 title={"Zašto odabrati nas?"} data={cards1Data} />
+      {/* <Cards2
         title={"Elektroinstalacije i elektro ormani"}
         data={cards2Data}
         text={cards2DataText}
-      />
+      /> */}
 
       <BackgroundImage image={"/bgImage.jpg"} altText={"bravarija tolic"} />
     </div>

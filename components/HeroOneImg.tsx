@@ -19,7 +19,7 @@ const HeroOneImg = () => {
 
       <div className="relative container px-2 md:px-4 mx-auto  flex flex-col gap-6 items-center justify-center z-[1] ">
         <h1 className="text-primary md:text-7xl text-xl font-bold px-4">
-          Bravarija Tolić
+          Tolić Inženjering
         </h1>
         <h2 className="text-muted font-medium md:text-5xl text-md">
           Bavimo se izradom čeličnih konstrukcija, stepeništa, nadstrešnica,

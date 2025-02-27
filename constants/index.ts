@@ -145,26 +145,26 @@ export const cards1Data: Cards1Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Kvalitetni materijali",
+    text: "Koristimo isključivo visokokvalitetne metale i premaze otporne na vremenske uslove.",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Precizna izrada",
+    text: "Svaki element prolazi kroz strogu kontrolu kvaliteta kako bismo osigurali dug vek trajanja.",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Prilagođena rešenja",
+    text: "Radimo isključivo po narudžbini, omogućavajući klijentima da biraju dizajn, dimenzije i završnu obradu.",
   },
   {
     id: 4,
     icon: GiWeight,
-    title: "Srbija i inostranstvo",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Iskustvo i stručnost",
+    text: "Naš tim čine iskusni inženjeri i majstori sa bogatim portfoliom realizovanih projekata.",
   },
 ];
 
