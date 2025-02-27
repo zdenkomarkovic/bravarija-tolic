@@ -6,7 +6,7 @@ import { ArrowRightIcon } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const Hero = () => {
+const HeroOneImg = () => {
   return (
     <div className="relative flex min-h-[100dvh]">
       <div className="absolute top-0 left-0 w-full h-full bg-black/20 z-[1]" />
@@ -19,10 +19,11 @@ const Hero = () => {
 
       <div className="relative container px-2 md:px-4 mx-auto  flex flex-col gap-6 items-center justify-center z-[1] ">
         <h1 className="text-primary md:text-7xl text-xl font-bold px-4">
-          Šlep služba Čačak
+          Bravarija Tolic
         </h1>
         <h2 className="text-muted font-medium md:text-5xl text-md">
-          Od 0 do 24h, sedam dana u nedelji!
+          Celicne konstrukcije, stepenista, nadstresnice, ograde, kapije i
+          ostalih eksterijeri
         </h2>
         <div className="flex flex-col gap-4 md:flex-row">
           <Link href="/proizvodi">
@@ -50,4 +51,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroOneImg;
