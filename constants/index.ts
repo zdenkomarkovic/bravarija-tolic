@@ -4,6 +4,7 @@ import { GrStatusGood } from "react-icons/gr";
 import { TbRulerMeasure2 } from "react-icons/tb";
 import { GrUserExpert } from "react-icons/gr";
 import { MdOutlineBorderColor } from "react-icons/md";
+import { IoConstructOutline } from "react-icons/io5";
 
 export const navList = [
   {
@@ -128,7 +129,7 @@ export const cards2Data: Cards2Data[] = [
   },
   {
     id: 8,
-    icon: GiWeight,
+    icon: IoConstructOutline,
     title: "Servis i održavanje",
     text: "Pružamo usluge popravke i održavanja metalnih konstrukcija, ograda, kapija i drugih bravarskih elemenata.",
   },

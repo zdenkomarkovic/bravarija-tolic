@@ -46,7 +46,7 @@ const MobileMenu = () => (
                           whileHover={{ color: "hsl(var(--primary))" }}
                         >
                           <AccordionTrigger
-                            className={`${mobTitleStyles} hover:no-underline`}
+                            className={`${mobTitleStyles} hover:no-underline text-primary`}
                           >
                             {item.title}
                           </AccordionTrigger>
@@ -54,7 +54,7 @@ const MobileMenu = () => (
                         <AccordionContent>
                           {item.list.map((link, index2) => (
                             <Link
-                              className="pl-6 block font-light py-2"
+                              className="pl-6 block font-light py-2 text-primary"
                               key={`${index}.${index2}`}
                               href={link.link}
                             >
@@ -71,7 +71,7 @@ const MobileMenu = () => (
                   </Fragment>
                 );
               return (
-                <Link key={index} href={item.link}>
+                <Link key={index} href={item.link} className="text-primary">
                   <motion.li
                     whileHover={{ color: "hsl(var(--primary))" }}
                     className={mobTitleStyles}
