@@ -50,10 +50,16 @@ export default function Footer() {
               </a>
             </div>
             <div className="flex space-x-4 justify-center md:justify-start">
-              <a href="#" className=" hover:text-primary">
+              <a
+                href="https://www.facebook.com/profile.php?id=61573016739565"
+                className=" hover:text-primary"
+              >
                 <Facebook />
               </a>
-              <a href="#" className=" hover:text-primary">
+              <a
+                href="https://www.instagram.com/tolicinzenjering/"
+                className=" hover:text-primary"
+              >
                 <Instagram />
               </a>
             </div>

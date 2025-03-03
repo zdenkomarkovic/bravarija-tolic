@@ -1,10 +1,15 @@
 import { IconType } from "react-icons";
-import { GiWeight } from "react-icons/gi";
 import { GrStatusGood } from "react-icons/gr";
 import { TbRulerMeasure2 } from "react-icons/tb";
 import { GrUserExpert } from "react-icons/gr";
 import { MdOutlineBorderColor } from "react-icons/md";
 import { IoConstructOutline } from "react-icons/io5";
+import { GiTireIronCross } from "react-icons/gi";
+import { GiGate } from "react-icons/gi";
+import { Gi3dStairs } from "react-icons/gi";
+import { FaPersonShelter } from "react-icons/fa6";
+import { PiPicnicTable } from "react-icons/pi";
+import { LiaIndustrySolid } from "react-icons/lia";
 
 export const navList = [
   {
@@ -87,51 +92,45 @@ export interface Cards2Data {
 export const cards2Data: Cards2Data[] = [
   {
     id: 1,
-    icon: GiWeight,
+    icon: GiTireIronCross,
     title: "Čelične konstrukcije",
     text: "Projektovanje i izrada čeličnih konstrukcija za stambene, poslovne i industrijske objekte.",
   },
   {
     id: 2,
-    icon: GiWeight,
+    icon: IoConstructOutline,
     title: "Kovane i moderne ograde",
     text: "Izrada unikatnih kovanih ograda sa dekorativnim detaljima, kao i minimalističkih modernih ograda.",
   },
   {
     id: 3,
-    icon: GiWeight,
+    icon: GiGate,
     title: "Kapije (klizne i klasične)",
     text: "Projektujemo i izrađujemo klizne, krilne i automatske kapije za dvorišta, poslovne objekte i industrijske komplekse.",
   },
   {
     id: 4,
-    icon: GiWeight,
+    icon: Gi3dStairs,
     title: "Stepeništa i rukohvati",
     text: "Izrada unutrašnjih i spoljašnjih metalnih stepeništa, rukohvata i gelendera.",
   },
   {
     id: 5,
-    icon: GiWeight,
+    icon: FaPersonShelter,
     title: "Nadstrešnice i pergole",
     text: "Izrada nadstrešnica za ulaze, parkinge, terase i balkone, kao i čeličnih pergola za dvorišne prostore.",
   },
   {
     id: 6,
-    icon: GiWeight,
+    icon: PiPicnicTable,
     title: "Metalni nameštaj i dekorativni elementi",
     text: "Izrađujemo industrijski nameštaj, dekorativne panele, police, stolove i druge unikatne metalne elemente za enterijere i eksterijere.",
   },
   {
     id: 7,
-    icon: GiWeight,
+    icon: LiaIndustrySolid,
     title: " Industrijska i građevinska bravarija",
     text: "Izrada raznih metalnih komponenti za industrijske objekte, hale, skladišta i građevinske projekte.",
-  },
-  {
-    id: 8,
-    icon: IoConstructOutline,
-    title: "Servis i održavanje",
-    text: "Pružamo usluge popravke i održavanja metalnih konstrukcija, ograda, kapija i drugih bravarskih elemenata.",
   },
 ];
 
