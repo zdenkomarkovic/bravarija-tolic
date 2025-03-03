@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Logo from "../public/manikam.png";
+import Logo from "../public/logo.jpg";
 import Link from "next/link";
 import { ChevronDownIcon, MenuIcon, PhoneIcon } from "lucide-react";
 
@@ -165,11 +165,11 @@ export default function Header() {
             alt="dm rustic 24"
             width={50}
             height={50}
-            className="rounded-full"
+            className="rounded-sm"
           />
         </Link>
         <DesktopNav />
-        <Link href="tel:+3816">
+        <Link href="tel:+381637626069">
           <motion.button
             whileHover={{
               color: "hsl(var(--foreground))",
@@ -178,7 +178,7 @@ export default function Header() {
             className=" items-center justify-center rounded-full text-primary border-primary border-2 text-sm md:text-lg py-1 px-2 md:py-2 md:px-4 transition-colors flex"
           >
             <PhoneIcon />
-            <p className="">+38160 000 000</p>
+            <p className="">+38163 762 6069</p>
           </motion.button>
         </Link>
         <MobileMenu />

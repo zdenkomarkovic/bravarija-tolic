@@ -12,7 +12,7 @@ const PozoviteNasOdmah = () => {
           konsultacije i ponudu. Rado ćemo vam pomoći da pronađete najbolje
           rešenje za vaš prostor!
         </h2>
-        <a href="tel:+381659480700">
+        <a href="tel:+381637626069">
           <motion.button
             whileHover={{ translateY: "-5px" }}
             whileTap={{ scale: 0.95 }}
