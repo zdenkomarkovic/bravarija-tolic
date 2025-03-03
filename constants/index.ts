@@ -1,12 +1,8 @@
 import { IconType } from "react-icons";
-import { GiWeightLiftingUp } from "react-icons/gi";
 import { GiWeight } from "react-icons/gi";
-import { IoFitnessOutline } from "react-icons/io5";
-import { MdOutlineSportsGymnastics } from "react-icons/md";
-import { IoIosPeople } from "react-icons/io";
-import { IoIosPerson } from "react-icons/io";
-import { PiRocketLaunchBold } from "react-icons/pi";
-import { LuTimerReset } from "react-icons/lu";
+import { GrStatusGood } from "react-icons/gr";
+import { TbRulerMeasure2 } from "react-icons/tb";
+import { GrUserExpert } from "react-icons/gr";
 
 export const navList = [
   {
@@ -55,13 +51,13 @@ export interface Cards1Data {
 export const cards1Data: Cards1Data[] = [
   {
     id: 1,
-    icon: GiWeight,
+    icon: GrStatusGood,
     title: "Kvalitetni materijali",
     text: "Koristimo isključivo visokokvalitetne metale i premaze otporne na vremenske uslove.",
   },
   {
     id: 2,
-    icon: GiWeight,
+    icon: TbRulerMeasure2,
     title: "Precizna izrada",
     text: "Svaki element prolazi kroz strogu kontrolu kvaliteta kako bismo osigurali dug vek trajanja.",
   },
@@ -73,7 +69,7 @@ export const cards1Data: Cards1Data[] = [
   },
   {
     id: 4,
-    icon: GiWeight,
+    icon: GrUserExpert,
     title: "Iskustvo i stručnost",
     text: "Naš tim čine iskusni inženjeri i majstori sa bogatim portfoliom realizovanih projekata.",
   },
