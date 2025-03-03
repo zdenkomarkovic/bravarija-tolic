@@ -3,6 +3,7 @@ import { GiWeight } from "react-icons/gi";
 import { GrStatusGood } from "react-icons/gr";
 import { TbRulerMeasure2 } from "react-icons/tb";
 import { GrUserExpert } from "react-icons/gr";
+import { MdOutlineBorderColor } from "react-icons/md";
 
 export const navList = [
   {
@@ -63,7 +64,7 @@ export const cards1Data: Cards1Data[] = [
   },
   {
     id: 3,
-    icon: GiWeight,
+    icon: MdOutlineBorderColor,
     title: "Prilagođena rešenja",
     text: "Radimo isključivo po narudžbini, omogućavajući klijentima da biraju dizajn, dimenzije i završnu obradu.",
   },
