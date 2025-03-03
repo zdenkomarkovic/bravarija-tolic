@@ -5,7 +5,7 @@ import { PhoneIcon } from "lucide-react";
 
 const PozoviteNasOdmah = () => {
   return (
-    <div className="bg-foreground text-primary mt-10 md:mt-20 py-10 md:py-20">
+    <div className="bg-muted text-primary mt-10 md:mt-20 py-10 md:py-20">
       <div className="container px-2 md:px-4 mx-auto font-bold flex flex-col md:flex-row items-center gap-10 md:gap-20">
         <h2 className="text-xl md:text-4xl text-center ">
           Ako vam je potrebno kvalitetno bravarsko rešenje, obratite nam se za
@@ -16,7 +16,7 @@ const PozoviteNasOdmah = () => {
           <motion.button
             whileHover={{ translateY: "-5px" }}
             whileTap={{ scale: 0.95 }}
-            className=" text-nowrap flex gap-3 text-3xl items-center text-muted-foreground bg-muted rounded-lg px-4 md:px-8 md:py-3 py-2"
+            className=" text-nowrap flex gap-3 text-3xl items-center text-primary bg-foreground rounded-lg px-4 md:px-8 md:py-3 py-2"
           >
             <PhoneIcon /> Pozovite odmah
           </motion.button>

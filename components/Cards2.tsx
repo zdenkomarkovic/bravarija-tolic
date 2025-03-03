@@ -13,7 +13,7 @@ const Cards2 = ({
 }) => {
   return (
     <div className="">
-      <div className="container px-5 mx-auto py-10 md:py-16 border-b-2 space-y-10 md:space-y-20">
+      <div className="container px-5 mx-auto py-10 md:py-16 space-y-10 md:space-y-20">
         <h2 className="text-4xl md:text-5xl text-center text-primary font-bold">
           {title}
         </h2>
@@ -21,7 +21,7 @@ const Cards2 = ({
           {data.map((item) => {
             return (
               <MotionComponent1 key={item.id}>
-                <OneCard key={item.id} item={item} />;
+                <OneCard key={item.id} item={item} />
               </MotionComponent1>
             );
           })}
@@ -39,13 +39,17 @@ const OneCard = ({ item }: { item: Cards2Data }) => {
 
   return (
     <Card className="h-full">
-      <CardHeader className=""></CardHeader>
-      <CardContent className="flex gap-5 items-center text-2xl md:text-3xl justify-start">
-        <div className=" md:text-4xl text-primary ">
-          {" "}
-          <IconComponent className="" />
+      <CardHeader className="relative z-10">
+        {" "}
+        <div className="flex gap-5 items-center text-2xl md:text-3xl justify-center ">
+          <div className="text-5xl md:text-7xl text-primary">
+            <IconComponent className="" />
+          </div>
+          <p className="inline-block">{item.title}</p>
         </div>
-        <p className="">{item.title}</p>
+      </CardHeader>
+      <CardContent className="relative z-10 md:space-y-4">
+        <p className=" first-letter:pl-6  text-md md:text-lg">{item.text}</p>
       </CardContent>
     </Card>
   );
