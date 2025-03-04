@@ -17,14 +17,25 @@ const Cards2 = ({
         <h2 className="text-4xl md:text-5xl text-center text-primary font-bold">
           {title}
         </h2>
-        <div className="grid md:grid-cols-3 text-center gap-6 md:gap-8 items-stretch">
-          {data.map((item) => {
-            return (
-              <MotionComponent1 key={item.id}>
-                <OneCard key={item.id} item={item} />
-              </MotionComponent1>
-            );
-          })}
+        <div className="space-y-6 md:space-y-8">
+          <div className="grid md:grid-cols-3 text-center gap-6 md:gap-8 items-stretch">
+            {data.slice(0, 6).map((item) => {
+              return (
+                <MotionComponent1 key={item.id}>
+                  <OneCard key={item.id} item={item} />
+                </MotionComponent1>
+              );
+            })}
+          </div>
+          <div className="grid md:grid-cols-1 text-center gap-6 md:gap-8 items-stretch">
+            {data.slice(6).map((item) => {
+              return (
+                <MotionComponent1 key={item.id}>
+                  <OneCard key={item.id} item={item} />
+                </MotionComponent1>
+              );
+            })}
+          </div>
         </div>
         <p className="first-letter:pl-6 text-xl md:text-3xl">{text.text}</p>
       </div>
